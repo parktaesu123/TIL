@@ -1,0 +1,15 @@
+💡 DB (DataBase)
+- 데이터의 집합, 데이터의 저장소
+
+💡 DBMS (DataBase Management System)
+- 대량의 데이터제이스를 효율적으로 관리하고 운영하기 위한 시스템, 소프트웨어
+
+💡 RDBMS (Relational DataBase MAnagement System)
+- 테이블이라는 최소 단위로 이루어진 관계형 DBMS
+
+💡 SQL (Structured Query Language)
+- RDBMS에서 데이터를 구축, 관리하고 활용하기 위해 사용되는 언어
+
+💡 root
+- MySQL의 모든 권한이 있는 관리자 이름
+- MySQL을 설치할 때 기본적으로 생성
