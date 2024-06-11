@@ -4,13 +4,17 @@
   Query 는 사용자가 데이터베이스에게 crud요청과 같은 것들을 할 수 있다는 뜻
   Language 는 데이터베이스도 이해할 수 있고 사용자도 이해할 수 있는 언어로 요청한다라는 뜻
 
-CREATE TABLE
+💡 CREATE TABLE (테이블 생성)
 - 새로운 테이블을 생성합니다.
+- ex) 사용자 정보를 저장하기 위한 테이블을 생성할 때 
+  사용자의 이름, 나이 등의 정보를 담는 열을 만듬
 
-    CREATE TABLE users (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        username VARCHAR(50),
-        email VARCHAR(100)
-    );
-- 여기서 "users"는 테이블 이름이며, "id", "username", "email"은 컬럼이 된다.
+💡 INSERT INTO (데이터 삽입)
+- 테이블에 새로운 정보를 추가한다.
+- ex) 새로운 사용자 정보를 추가할 때, 사용자의 이름, 이메일 주소 등의 정보를 지정하여 테이블에 추가
 
+💡 SELECT (데이터 조회)
+- 테이블에 저장된 정보를 조회한다.
+- 원하는 열(컬럼)의 데이터를 가져오거나, 특정 조건에 맞는 행을 찾을 수 있다.
+- ex) SELECT * FROM 테이블명: 테이블에서 모든 열을 조회
+      SELECT 필드명 FROM 테이블명: 해당 필드만 조회 
