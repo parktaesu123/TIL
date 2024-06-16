@@ -19,6 +19,6 @@
 > 
 - @NoArgsConstructor: 파라미터가 없는 기본 생성자를 만들어줌
 - @AllArgsConstructor: 모든 필드 값을 파라미터로 받는 생성자를 만들어줌
-- @RequiredArgsConstructor: final이나
+- @RequiredArgsConstructor: final이나 @NonNull 인 필드 값만 파라미터로 받는 생성자를 만들어줍니다.
 - @Builder : 자동으로 해당 클래스에 빌더를 추가해줌
 
