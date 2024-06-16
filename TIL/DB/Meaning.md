@@ -39,10 +39,3 @@
 > 
 - DB(테이블)에서 레코드를 식별하는 기준
 - 테이블의 각 레코드에는 반드시 하나의 기본키만 존재한다.
-
-> 매핑(Mapping)
-> 
-- 해당 값이 다른 값을 가르키 도록 하는 것이다.
-- ex) http~/backend.is.best라는 페이지를 만들었다고 가정할 때 이 url이 그대로 유출되면 보안상 취약하다
-    
-    그래서 backend.is.best = fact 로 설정하여 fact라는 url로 갔을 때 backend.is.best로 가게 한다.
