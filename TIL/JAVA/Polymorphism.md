@@ -54,3 +54,48 @@ Animal animal = cat;  //animal변수에 대입 -> 자동 타입 변환이 일어
 Parent parent = new Child(); //자동 타입 변환
 Child child = (Child) parent; //강제 타입변환
 ```
+---
+> 오버로딩
+> 
+- 같은 이름의 함수에 매개변수를 다르게 주는 것
+- 같은 이름의 함수에 매개변수의 수나 자료형을 다르게 하여 여러 개 선언할 수 있다.
+
+```java
+public class Test {
+
+    // 매개변수가 없는 overloadingTest() method
+    void overloadingTest(){
+        System.out.println("매개변수를 받지 않는 메서드");
+    }
+
+    // 매개변수로 int형 인자 2개를 요청하는 overloadingTest(int a, int b) method
+    void overloadingTest(int a, int b){
+        System.out.println("int형 인자 2개를 요청하는 메서드 "+ a + ", " + b);
+    }
+
+    // 매개변수로 String형 인자 1개를 요청하는 overloadingTest(String str) method
+    void overloadingTest(String str){
+        System.out.println("String형 인자 1개를 요청하는 메서드 " + d);
+    }
+}
+```
+
+---
+
+> 오버라이딩
+> 
+- 상위 클래스에서 정의된 변수와 메소드의 내용을 하위 클래스에서 변경하여 재정의하는 것
+
+```java
+public class Parent {
+    public void overridingTest() {
+        System.out.println("부모 메서드의 내용");
+    }
+}
+public class Child extends Parent {
+    @Override
+    public void overridingTest() {
+        System.out.println("부모 클래스의 메서드를 상속받아 내용을 재정의해서 사용");
+    }
+}
+```
