@@ -1,6 +1,5 @@
 # JWT Token
 
----
 
 <aside>
 🚀 **JWT Token이란?**
