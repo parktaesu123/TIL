@@ -42,3 +42,7 @@
 5. **헤더**에 Access Token 대신 `Refresh Token`을 넣어 **API를 재요청**한다.
 6. Refresh Token으로 사용자의 권한을 확인한 서버는 **응답쿼리 헤더**에 **새로운 Access Token**을 넣어 응답한다.
 7. 만약 `Refresh Token`도 **만료**되었다면 서버는 동일하게 **401 error code**를 보내고, 클라이언트는 **재로그인**해야한다.
+
+### 참고자료
+
+[https://velog.io/@chuu1019/알고-쓰자-JWTJson-Web-Token](https://velog.io/@chuu1019/%EC%95%8C%EA%B3%A0-%EC%93%B0%EC%9E%90-JWTJson-Web-Token)
