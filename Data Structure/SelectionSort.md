@@ -33,8 +33,8 @@ void SelectionSort(int a[], int size) {
 		for(j = i+1; j<size; j++) {
 			if(a[j] < a[min]) min = j;
 		}
-		temp = a[j];
-		a[j] = a[min];		
+		temp = a[i];
+		a[i] = a[min];		
 		a[min] = temp;
 		printf("\n %d단계: ",i+1);
 		
