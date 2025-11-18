@@ -102,3 +102,11 @@ public interface InvocationHandler {
 1. Proxy : 프록시 객체
 2. Method : 호출한 메서드
 3. Object[] args : 메서드에 전달된 매개변수
+
+### 참고자료
+
+https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EB%88%84%EA%B5%AC%EB%82%98-%EC%89%BD%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-Dynamic-Proxy-%EB%8B%A4%EB%A3%A8%EA%B8%B0
+
+https://velog.io/@suhongkim98/JDK-Dynamic-Proxy%EC%99%80-CGLib
+
+https://xbtmdals7.tistory.com/57
